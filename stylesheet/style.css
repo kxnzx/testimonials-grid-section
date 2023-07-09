@@ -36,8 +36,12 @@ p {
   line-height: 1.6;
 }
 
-body {
+main {
+  height: 100vh;
   display: grid;
+  grid-template-columns: 33rem;
+  justify-content: center;
+  border: solid 2px black;
 }
 
 figure {

@@ -62,8 +62,13 @@ p {
 }
 
 // STYLES
-body {
+main {
+  height: 100vh;
   display: grid;
+  grid-template-columns: 33rem;
+  justify-content: center;
+  //align-items: center;
+  border: solid 2px black;
 }
 figure {
   border: solid black 2px;
