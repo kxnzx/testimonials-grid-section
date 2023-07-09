@@ -62,7 +62,12 @@ p {
 }
 
 // STYLES
+body {
+  display: grid;
+  place-items: center;
+}
 main {
+  max-width: 1440px;
   display: grid;
   grid-template-columns: 33rem;
   justify-content: center;
@@ -70,6 +75,9 @@ main {
   gap: 2.5rem;
   padding-top: 7rem;
   padding-bottom: 7rem;
+  @media screen and (min-width: $mobile) {
+    grid-template-columns: 66rem;
+  }
   @media screen and (min-width: $desktop) {
     height: 100vh;
     padding: 16.5rem 9rem 16.5rem 9rem;

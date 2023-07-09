@@ -36,7 +36,13 @@ p {
   line-height: 1.6;
 }
 
+body {
+  display: grid;
+  place-items: center;
+}
+
 main {
+  max-width: 1440px;
   display: grid;
   grid-template-columns: 33rem;
   justify-content: center;
@@ -44,6 +50,11 @@ main {
   gap: 2.5rem;
   padding-top: 7rem;
   padding-bottom: 7rem;
+}
+@media screen and (min-width: 640px) {
+  main {
+    grid-template-columns: 66rem;
+  }
 }
 @media screen and (min-width: 1024px) {
   main {
