@@ -37,11 +37,13 @@ p {
 }
 
 main {
-  height: 100vh;
   display: grid;
   grid-template-columns: 33rem;
   justify-content: center;
   border: solid 2px black;
+  gap: 2.5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 figure {
