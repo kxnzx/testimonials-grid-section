@@ -69,9 +69,17 @@ main {
 figure {
   border-radius: 8px;
 }
+figure img {
+  width: 3rem;
+  border-radius: 50%;
+  border: solid white 2px;
+}
 
 .violet {
   background-color: hsl(263deg, 55%, 52%);
+}
+.violet img {
+  border-color: #9269d3;
 }
 @media screen and (min-width: 1024px) {
   .violet {
@@ -81,6 +89,9 @@ figure {
 
 .gray {
   background-color: hsl(217deg, 19%, 35%);
+}
+.gray img {
+  border-color: hsl(0deg, 0%, 81%);
 }
 
 .white {
@@ -95,6 +106,9 @@ figure {
 
 .blue {
   background-color: hsl(219deg, 29%, 14%);
+}
+.blue img {
+  border-color: #9269d3;
 }
 @media screen and (min-width: 1024px) {
   .blue {
