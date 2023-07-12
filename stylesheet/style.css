@@ -82,6 +82,11 @@ figure img {
   gap: 1.5rem;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .violet {
   background-color: hsl(263deg, 55%, 52%);
 }
