@@ -103,6 +103,11 @@ figure {
   gap: 1.5rem;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .violet {
   background-color: $moderate_violet;
   img {
