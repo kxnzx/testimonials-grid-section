@@ -116,6 +116,19 @@ figure {
 .blue {
   figcaption {
     color: $white;
+    span {
+      color: $light_gray;
+    }
+  }
+}
+
+.white,
+.white2 {
+  figcaption {
+    color: $very_dark_blackish_blue;
+    span {
+      color: $very_dark_grayish_blue;
+    }
   }
 }
 

@@ -95,6 +95,20 @@ figure img {
 .blue figcaption {
   color: hsl(0deg, 0%, 100%);
 }
+.violet figcaption span,
+.gray figcaption span,
+.blue figcaption span {
+  color: hsl(0deg, 0%, 81%);
+}
+
+.white figcaption,
+.white2 figcaption {
+  color: hsl(219deg, 29%, 14%);
+}
+.white figcaption span,
+.white2 figcaption span {
+  color: hsl(217deg, 19%, 35%);
+}
 
 .violet {
   background-color: hsl(263deg, 55%, 52%);
