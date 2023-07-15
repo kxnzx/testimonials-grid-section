@@ -75,6 +75,9 @@ figure {
 figure blockquote {
   padding-top: 2rem;
 }
+figure blockquote span {
+  color: white;
+}
 figure img {
   width: 3rem;
   border-radius: 50%;
