@@ -72,6 +72,9 @@ figure {
   border-radius: 8px;
   padding: 2.5rem 3rem 3.5rem 3rem;
 }
+figure blockquote {
+  padding-top: 2rem;
+}
 figure img {
   width: 3rem;
   border-radius: 50%;
