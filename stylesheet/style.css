@@ -40,6 +40,8 @@ body {
   display: grid;
   place-items: center;
   background-color: hsl(210deg, 46%, 95%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.3rem;
 }
 
 main {
@@ -68,6 +70,7 @@ main {
 
 figure {
   border-radius: 8px;
+  padding: 2.5rem 3rem 3.5rem 3rem;
 }
 figure img {
   width: 3rem;
@@ -85,6 +88,12 @@ figure img {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.violet figcaption,
+.gray figcaption,
+.blue figcaption {
+  color: hsl(0deg, 0%, 100%);
 }
 
 .violet {

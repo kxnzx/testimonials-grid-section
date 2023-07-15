@@ -67,6 +67,8 @@ body {
   display: grid;
   place-items: center;
   background-color: $light_grayish_blue;
+  font-family: $ff;
+  font-size: $fs_bodyCopy;
 }
 main {
   width: 100%;
@@ -89,6 +91,7 @@ main {
 }
 figure {
   border-radius: 8px;
+  padding: 2.5rem 3rem 3.5rem 3rem;
   img {
     width: 3rem;
     border-radius: 50%;
@@ -106,6 +109,14 @@ figure {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.violet,
+.gray,
+.blue {
+  figcaption {
+    color: $white;
+  }
 }
 
 .violet {
