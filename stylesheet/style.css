@@ -76,7 +76,9 @@ figure blockquote {
   padding-top: 2rem;
 }
 figure blockquote span {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
+  display: inline-block;
+  margin-bottom: 2rem;
 }
 figure img {
   width: 3rem;
@@ -114,6 +116,14 @@ figure img {
 .white figcaption span,
 .white2 figcaption span {
   color: hsl(217deg, 19%, 35%);
+}
+.white blockquote,
+.white2 blockquote {
+  color: hsl(217deg, 19%, 35%);
+}
+.white blockquote span,
+.white2 blockquote span {
+  color: hsl(219deg, 29%, 14%);
 }
 
 .violet {

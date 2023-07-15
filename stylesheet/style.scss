@@ -95,7 +95,9 @@ figure {
   blockquote {
     padding-top: 2rem;
     span {
-      color: white;
+      color: $white;
+      display: inline-block;
+      margin-bottom: 2rem;
     }
   }
   img {
@@ -134,6 +136,12 @@ figure {
     color: $very_dark_blackish_blue;
     span {
       color: $very_dark_grayish_blue;
+    }
+  }
+  blockquote {
+    color: $very_dark_grayish_blue;
+    span {
+      color: $very_dark_blackish_blue;
     }
   }
 }
