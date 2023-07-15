@@ -74,12 +74,15 @@ figure {
 }
 figure blockquote {
   padding-top: 2rem;
+  color: hsl(0deg, 0%, 81%);
+  line-height: 1.6;
 }
 figure blockquote span {
   color: hsl(0deg, 0%, 100%);
   display: inline-block;
   margin-bottom: 2rem;
   font-size: 2.085rem;
+  line-height: 1.3;
 }
 figure img {
   width: 3rem;
