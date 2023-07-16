@@ -200,6 +200,9 @@ figure {
 
 .white2 {
   background-color: $white;
+  .quote5 {
+    padding-right: 0.8rem;
+  }
   @media screen and (min-width: $desktop) {
     // start / end
     grid-column: 4 / 5;
