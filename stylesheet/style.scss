@@ -167,6 +167,9 @@ figure {
 
 .gray {
   background-color: $very_dark_grayish_blue;
+  .quote2 {
+    padding-right: 0;
+  }
   img {
     border-color: $light_gray;
   }

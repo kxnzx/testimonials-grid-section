@@ -148,6 +148,9 @@ figure img {
 .gray {
   background-color: hsl(217deg, 19%, 35%);
 }
+.gray .quote2 {
+  padding-right: 0;
+}
 .gray img {
   border-color: hsl(0deg, 0%, 81%);
 }
