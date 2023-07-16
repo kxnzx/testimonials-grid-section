@@ -133,6 +133,9 @@ figure img {
 .violet {
   background-color: hsl(263deg, 55%, 52%);
 }
+.violet .quote1 {
+  padding-right: 2rem;
+}
 .violet img {
   border-color: #9269d3;
 }
