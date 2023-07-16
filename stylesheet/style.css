@@ -168,6 +168,9 @@ figure img {
 .blue {
   background-color: hsl(219deg, 29%, 14%);
 }
+.blue .quote4 {
+  padding-right: 0.8rem;
+}
 .blue img {
   border-color: #9269d3;
 }
