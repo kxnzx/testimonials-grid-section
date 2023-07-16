@@ -134,7 +134,7 @@ figure img {
   background-color: hsl(263deg, 55%, 52%);
 }
 .violet .quote1 {
-  padding-right: 2rem;
+  padding-right: 2.125rem;
 }
 .violet img {
   border-color: #9269d3;
@@ -154,6 +154,9 @@ figure img {
 
 .white {
   background-color: hsl(0deg, 0%, 100%);
+}
+.white .quote3 {
+  padding-right: 2rem;
 }
 @media screen and (min-width: 1024px) {
   .white {
