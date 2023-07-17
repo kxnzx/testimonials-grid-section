@@ -82,7 +82,7 @@ figure blockquote span {
   display: inline-block;
   margin-bottom: 2rem;
   font-size: 2.085rem;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 figure img {
   width: 3rem;
@@ -136,13 +136,13 @@ figure img {
   z-index: 100;
 }
 .violet .pattern {
-  border: solid black 2px;
-  height: 14.5rem;
-  width: 50%;
   position: absolute;
   z-index: -100;
   background-image: url(../images/bg-pattern-quotation.svg);
-  background-size: cover;
+  background-size: 10.5rem;
+  background-repeat: no-repeat;
+  background-position: 89% 0%;
+  inset: 0;
 }
 .violet .quote1 {
   padding-right: 2.125rem;
