@@ -151,7 +151,17 @@ figure {
 }
 
 .violet {
+  position: relative;
   background-color: $moderate_violet;
+  z-index: 100;
+  .pattern {
+    border: solid black 2px;
+    height: 14.5rem;
+    width: 50%;
+    position: absolute;
+    z-index: -100;
+    background-image: url(images/bg-pattern-quotation.svg);
+  }
   .quote1 {
     padding-right: 2.125rem;
   }
