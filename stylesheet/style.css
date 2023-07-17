@@ -141,7 +141,8 @@ figure img {
   width: 50%;
   position: absolute;
   z-index: -100;
-  background-image: url(images/bg-pattern-quotation.svg);
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-size: cover;
 }
 .violet .quote1 {
   padding-right: 2.125rem;
