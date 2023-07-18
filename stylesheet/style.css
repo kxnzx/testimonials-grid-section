@@ -144,6 +144,11 @@ figure img {
   background-position: 89% 0%;
   inset: 0;
 }
+@media screen and (min-width: 1024px) {
+  .violet span {
+    font-size: 2rem;
+  }
+}
 .violet .quote1 {
   padding-right: 2.125rem;
 }

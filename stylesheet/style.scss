@@ -163,6 +163,11 @@ figure {
     background-position: 89% 0%;
     inset: 0;
   }
+  span {
+    @media screen and (min-width: $desktop) {
+      font-size: 2rem;
+    }
+  }
   .quote1 {
     padding-right: 2.125rem;
     @media screen and (min-width: $desktop) {
