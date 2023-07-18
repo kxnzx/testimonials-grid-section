@@ -147,6 +147,11 @@ figure img {
 .violet .quote1 {
   padding-right: 2.125rem;
 }
+@media screen and (min-width: 1024px) {
+  .violet .quote1 {
+    padding-right: 3.7rem;
+  }
+}
 .violet img {
   border-color: #9269d3;
 }
