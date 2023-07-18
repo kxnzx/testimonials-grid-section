@@ -163,11 +163,6 @@ figure {
     background-position: 89% 0%;
     inset: 0;
   }
-  span {
-    @media screen and (min-width: $desktop) {
-      font-size: 2rem;
-    }
-  }
   .quote1 {
     padding-right: 2.125rem;
     @media screen and (min-width: $desktop) {
@@ -188,6 +183,9 @@ figure {
   background-color: $very_dark_grayish_blue;
   .quote2 {
     padding-right: 0;
+    @media screen and (min-width: $desktop) {
+      padding-right: 6rem;
+    }
   }
   img {
     border-color: $light_gray;
