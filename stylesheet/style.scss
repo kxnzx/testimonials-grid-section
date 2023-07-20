@@ -102,9 +102,6 @@ figure {
       margin-bottom: 2rem;
       font-size: 2.085rem;
       line-height: 1.2;
-      @media screen and (min-width: $desktop) {
-        font-size: 1.95rem;
-      }
     }
   }
   img {
@@ -168,7 +165,6 @@ figure {
   }
   .headquote1 {
     @media screen and (min-width: $desktop) {
-      border: solid black 2px;
       max-width: 47rem;
     }
   }
@@ -190,10 +186,15 @@ figure {
 
 .gray {
   background-color: $very_dark_grayish_blue;
+  .headquote2 {
+    @media screen and (min-width: $desktop) {
+      max-width: 20rem;
+    }
+  }
   .quote2 {
     padding-right: 0;
     @media screen and (min-width: $desktop) {
-      padding-right: 6rem;
+      //padding-right: 6rem;
     }
   }
   img {
@@ -203,6 +204,11 @@ figure {
 
 .white {
   background-color: $white;
+  .headquote3 {
+    @media screen and (min-width: $desktop) {
+      max-width: 20rem;
+    }
+  }
   .quote3 {
     padding-right: 2rem;
   }
@@ -215,6 +221,11 @@ figure {
 
 .blue {
   background-color: $very_dark_blackish_blue;
+  .headquote4 {
+    @media screen and (min-width: $desktop) {
+      max-width: 100%;
+    }
+  }
   .quote4 {
     padding-right: 0.8rem;
   }
@@ -229,8 +240,14 @@ figure {
 
 .white2 {
   background-color: $white;
+  .headquote5 {
+    @media screen and (min-width: $desktop) {
+      max-width: 20rem;
+    }
+  }
   .quote5 {
     padding-right: 0.8rem;
+    max-width: 20.75rem;
   }
   @media screen and (min-width: $desktop) {
     // start / end
