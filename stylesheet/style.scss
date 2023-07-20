@@ -102,6 +102,9 @@ figure {
       margin-bottom: 2rem;
       font-size: 2.085rem;
       line-height: 1.2;
+      @media screen and (min-width: $desktop) {
+        font-size: 1.95rem;
+      }
     }
   }
   img {
@@ -162,6 +165,12 @@ figure {
     background-repeat: no-repeat;
     background-position: 89% 0%;
     inset: 0;
+  }
+  .headquote1 {
+    @media screen and (min-width: $desktop) {
+      border: solid black 2px;
+      max-width: 47rem;
+    }
   }
   .quote1 {
     padding-right: 2.125rem;

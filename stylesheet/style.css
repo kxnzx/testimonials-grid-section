@@ -84,6 +84,11 @@ figure blockquote span {
   font-size: 2.085rem;
   line-height: 1.2;
 }
+@media screen and (min-width: 1024px) {
+  figure blockquote span {
+    font-size: 1.95rem;
+  }
+}
 figure img {
   width: 3rem;
   border-radius: 50%;
@@ -143,6 +148,12 @@ figure img {
   background-repeat: no-repeat;
   background-position: 89% 0%;
   inset: 0;
+}
+@media screen and (min-width: 1024px) {
+  .violet .headquote1 {
+    border: solid black 2px;
+    max-width: 47rem;
+  }
 }
 .violet .quote1 {
   padding-right: 2.125rem;
