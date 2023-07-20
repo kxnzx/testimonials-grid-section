@@ -165,13 +165,14 @@ figure {
   }
   .headquote1 {
     @media screen and (min-width: $desktop) {
-      max-width: 47rem;
+      //max-width: 47rem;
     }
   }
   .quote1 {
     padding-right: 2.125rem;
     @media screen and (min-width: $desktop) {
       padding-right: 0rem;
+      //max-width: 47rem;
     }
   }
 
@@ -195,6 +196,7 @@ figure {
     padding-right: 0;
     @media screen and (min-width: $desktop) {
       //padding-right: 6rem;
+      max-width: 19rem;
     }
   }
   img {
@@ -228,6 +230,7 @@ figure {
   }
   .quote4 {
     padding-right: 0.8rem;
+    max-width: 46.5rem;
   }
   img {
     border-color: $light_violet;

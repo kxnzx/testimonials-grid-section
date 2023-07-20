@@ -144,11 +144,6 @@ figure img {
   background-position: 89% 0%;
   inset: 0;
 }
-@media screen and (min-width: 1024px) {
-  .violet .headquote1 {
-    max-width: 47rem;
-  }
-}
 .violet .quote1 {
   padding-right: 2.125rem;
 }
@@ -176,6 +171,11 @@ figure img {
 }
 .gray .quote2 {
   padding-right: 0;
+}
+@media screen and (min-width: 1024px) {
+  .gray .quote2 {
+    max-width: 19rem;
+  }
 }
 .gray img {
   border-color: hsl(0deg, 0%, 81%);
@@ -209,6 +209,7 @@ figure img {
 }
 .blue .quote4 {
   padding-right: 0.8rem;
+  max-width: 46.5rem;
 }
 .blue img {
   border-color: #9269d3;
