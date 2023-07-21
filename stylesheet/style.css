@@ -81,7 +81,7 @@ figure blockquote span {
   color: hsl(0deg, 0%, 100%);
   display: inline-block;
   margin-bottom: 2rem;
-  font-size: 2.085rem;
+  font-size: 2.225rem;
   line-height: 1.2;
 }
 figure img {
@@ -190,7 +190,7 @@ figure img {
   }
 }
 .white .quote3 {
-  padding-right: 2rem;
+  max-width: 20rem;
 }
 @media screen and (min-width: 1024px) {
   .white {
