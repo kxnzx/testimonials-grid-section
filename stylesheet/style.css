@@ -197,7 +197,7 @@ figure img {
     grid-column: 1/2;
     grid-row: 2/3;
     padding-right: 0;
-    max-width: 20rem;
+    max-width: 19rem;
   }
 }
 
@@ -212,6 +212,11 @@ figure img {
 .blue .quote4 {
   padding-right: 0.8rem;
   max-width: 46.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .blue .quote4 {
+    max-width: 100%;
+  }
 }
 .blue img {
   border-color: #9269d3;
@@ -233,6 +238,11 @@ figure img {
 .white2 .quote5 {
   padding-right: 0.8rem;
   max-width: 20.75rem;
+}
+@media screen and (min-width: 1024px) {
+  .white2 .quote5 {
+    max-width: 20rem;
+  }
 }
 @media screen and (min-width: 1024px) {
   .white2 {
