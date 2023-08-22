@@ -62,8 +62,6 @@ To see how you can add code snippets, see below:
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 ## Author
 
 - Frontend Mentor - [@kxnzx](https://www.frontendmentor.io/profile/kxnzx)
