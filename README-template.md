@@ -26,7 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Screensize 1440px - Desktop
+
+![Desktop](images/Desktop.gif)
+
+#### Screensize 375px - Mobile
+
+![Mobile](images/Mobile.gif)
 
 ### Links
 
