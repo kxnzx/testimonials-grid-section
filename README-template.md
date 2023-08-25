@@ -41,6 +41,13 @@ Users should be able to:
 
 ## My process
 
+- HTML semantics
+- JavaScript
+- Importing Google Fonts
+- Set variables
+- Reset default settings
+- Styles (Mobile First)
+
 ### Built with
 
 - Semantic HTML5 markup
