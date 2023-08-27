@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- View my Solution on [Frontend Mentor](https://www.frontendmentor.io/solutions/age-calculator-app-with-vanilla-javascript-K3ycL8l3Y2)
-- View the [Live Site](https://kxnzx.github.io/age-calculator-app/)
+- View my Solution on [Frontend Mentor]()
+- View the [Live Site]()
 
 ## My process
 
