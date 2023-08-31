@@ -60,8 +60,6 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project.
-
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
