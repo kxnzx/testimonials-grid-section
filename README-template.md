@@ -64,12 +64,6 @@ Users should be able to:
 <h1>Some HTML code I'm proud of</h1>
 ```
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
 ## Author
 
 - Frontend Mentor - [@kxnzx](https://www.frontendmentor.io/profile/kxnzx)
