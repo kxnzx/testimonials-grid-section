@@ -66,6 +66,7 @@ Users should be able to:
 ```css
 .proud-of-this-css {
   color: papayawhip;
+  font-size: 2rem;
 }
 ```
 
