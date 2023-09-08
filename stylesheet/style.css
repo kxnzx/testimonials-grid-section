@@ -69,19 +69,22 @@ main {
 }
 
 figure {
+  border: solid green 2px;
   border-radius: 8px;
-  padding: 2.5rem 3rem 3.5rem 3rem;
+  padding: 2.5rem 2rem 3.5rem 2rem;
 }
 figure blockquote {
   padding-top: 2rem;
   color: hsl(0deg, 0%, 81%);
   line-height: 1.6;
+  border: red solid 2px;
 }
 figure blockquote span {
+  border: solid blue 2px;
   color: hsl(0deg, 0%, 100%);
   display: inline-block;
   margin-bottom: 2rem;
-  font-size: 2.225rem;
+  font-size: 2.15rem;
   line-height: 1.2;
 }
 figure img {
@@ -251,7 +254,6 @@ figure img {
   }
 }
 
-/* footer {
-    text-align: center;
-  }
-  *//*# sourceMappingURL=style.css.map */
+footer {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
