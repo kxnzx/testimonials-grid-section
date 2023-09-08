@@ -107,9 +107,11 @@ figure {
       color: $white;
       display: inline-block;
       margin-bottom: 2rem;
-      font-size: 2.15rem;
-      //font-size: 2.225rem;
       line-height: 1.2;
+      font-size: 2.15rem;
+      @media screen and (min-width: $desktop) {
+        font-size: 2.35rem;
+      }
     }
   }
   img {
@@ -174,6 +176,12 @@ figure {
   .headquote1 {
     @media screen and (min-width: $desktop) {
       //max-width: 47rem;
+    }
+  }
+  .quote {
+    @media screen and (min-width: $desktop) {
+      border: solid white 2px;
+      font-size: 1.55rem;
     }
   }
   .quote1 {

@@ -90,8 +90,13 @@ figure blockquote span {
   color: hsl(0deg, 0%, 100%);
   display: inline-block;
   margin-bottom: 2rem;
-  font-size: 2.15rem;
   line-height: 1.2;
+  font-size: 2.15rem;
+}
+@media screen and (min-width: 1024px) {
+  figure blockquote span {
+    font-size: 2.35rem;
+  }
 }
 figure img {
   width: 3rem;
@@ -152,6 +157,12 @@ figure img {
   background-repeat: no-repeat;
   background-position: 89% 0%;
   inset: 0;
+}
+@media screen and (min-width: 1024px) {
+  .violet .quote {
+    border: solid white 2px;
+    font-size: 1.55rem;
+  }
 }
 .violet .quote1 {
   padding-right: 2.125rem;
