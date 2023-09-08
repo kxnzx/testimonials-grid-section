@@ -93,6 +93,10 @@ figure {
   border: solid green 2px;
   border-radius: 8px;
   padding: 2.5rem 2rem 3.5rem 2rem;
+  @media screen and (min-width: $desktop) {
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+  }
   blockquote {
     padding-top: 2rem;
     color: $light_gray;
