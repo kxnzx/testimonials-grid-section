@@ -175,17 +175,21 @@ figure {
       //max-width: 47rem;
     }
   }
+
   .quote {
     @media screen and (min-width: $desktop) {
       border: solid black 2px;
       font-size: 1.55rem;
     }
   }
+
   .quote1 {
     padding-right: 2.125rem;
     @media screen and (min-width: $desktop) {
       padding-right: 0rem;
       //max-width: 47rem;
+      border: solid black 2px;
+      font-size: 1.55rem;
     }
   }
 
@@ -210,6 +214,8 @@ figure {
     @media screen and (min-width: $desktop) {
       //padding-right: 6rem;
       max-width: 19rem;
+      border: solid black 2px;
+      font-size: 1.55rem;
     }
   }
   img {
@@ -273,6 +279,7 @@ figure {
       max-width: 20rem;
     }
   }
+
   @media screen and (min-width: $desktop) {
     // start / end
     grid-column: 4 / 5;

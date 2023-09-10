@@ -167,6 +167,8 @@ figure img {
 @media screen and (min-width: 1024px) {
   .violet .quote1 {
     padding-right: 0rem;
+    border: solid black 2px;
+    font-size: 1.55rem;
   }
 }
 .violet img {
@@ -192,6 +194,8 @@ figure img {
 @media screen and (min-width: 1024px) {
   .gray .quote2 {
     max-width: 19rem;
+    border: solid black 2px;
+    font-size: 1.55rem;
   }
 }
 .gray img {
