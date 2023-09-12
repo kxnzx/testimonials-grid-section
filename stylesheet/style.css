@@ -264,5 +264,13 @@ figure img {
 
 footer {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
+  background-color: hsl(210deg, 46%, 95%);
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    z-index: 1000;
+    position: absolute;
+    bottom: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -277,5 +277,11 @@ figure {
 
 footer {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
+  background-color: $light_grayish_blue;
+  @media screen and (min-width: $desktop) {
+    z-index: 1000;
+    position: absolute;
+    bottom: 0;
+  }
 }
