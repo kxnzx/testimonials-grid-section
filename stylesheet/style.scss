@@ -176,18 +176,10 @@ figure {
     }
   }
 
-  .quote {
-    @media screen and (min-width: $desktop) {
-      border: solid black 2px;
-      font-size: 1.55rem;
-    }
-  }
-
   .quote1 {
     padding-right: 2.125rem;
     @media screen and (min-width: $desktop) {
       padding-right: 0rem;
-      //max-width: 47rem;
     }
   }
 
