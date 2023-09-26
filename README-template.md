@@ -59,13 +59,11 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of this</h1>
-```
-
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@media screen and (min-width: $desktop) {
+  // start / end
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
 }
 ```
 
