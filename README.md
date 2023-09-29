@@ -27,7 +27,7 @@ Users should be able to:
 
 #### Screensize 1440px - Desktop
 
-![Desktop](images/Desktop.gif)
+![Desktop](images/Desktop.png)
 
 #### Screensize 375px - Mobile
 
