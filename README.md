@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- View my Solution on [Frontend Mentor]()
-- View the [Live Site]()
+- View my Solution on [Frontend Mentor](https://www.frontendmentor.io/solutions/testimonials-sections-with-css-grid-FFuwaIWVu_)
+- View the [Live Site](https://kxnzx.github.io/testimonials-grid-section/)
 
 ## My process
 
